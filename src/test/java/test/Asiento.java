@@ -5,11 +5,11 @@ public class Asiento {
 	int precio;
 	int registro;
 
-	Asiento(String color, int precio, int registro) {
+	/*Asiento(String color, int precio, int registro) {
 		this.color = color;
 		this.precio = precio;
 		this.registro = registro;
-	}
+	}*/
 
 	void cambiarColor(String color) {
 		if (color == "rojo") {
