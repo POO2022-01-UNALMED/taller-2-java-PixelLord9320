@@ -27,7 +27,7 @@ public class Auto {
 			integridad = false;
 		}
 
-		for (int i = 0; i < cantidadAsientos(); i++) {
+		for (int i = 0; i < this.cantidadAsientos(); i++) {
 			if (this.registro != asientos[i].registro) {
 				integridad = false;
 			}
