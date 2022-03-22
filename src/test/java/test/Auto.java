@@ -20,7 +20,7 @@ public class Auto {
 
 	}
 
-	void verificarIntegridad() {
+	String verificarIntegridad() {
 		boolean integridad = true;
 		
 		if (this.registro != motor.registro) {
@@ -33,10 +33,11 @@ public class Auto {
 			}
 		}
 		if (integridad == false) {
-			System.out.println("Las piezas no son originales");
+			return "Las piezas no son originales";
 		} else {
-			System.out.println("Auto original");
+			return "Auto original";
 		}
+		
 	}
 
 }
